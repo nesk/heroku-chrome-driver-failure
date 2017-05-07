@@ -1,0 +1,15 @@
+{
+    "name": "ChromeDriver failure",
+    "buildpacks": [
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-xvfb-google-chrome"
+        }
+    ],
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "true"
+            }
+        }
+    }
+}
