@@ -12,7 +12,7 @@ curl -X "POST" "http://localhost:9515/session" \
     "platform": "ANY",
     "browserName": "chrome",
     "chromeOptions": {
-      "binary": "/app/.apt/opt/google/chrome/chrome"
+      "binary": "/app/.apt/usr/bin/google-chrome"
     }
   }
 }'
